@@ -1,0 +1,103 @@
+body{
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+}
+.logo {
+    padding-top: 15px;
+    margin-left: 50px;
+    width: 3%;
+}
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+textarea {
+    resize: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.textarea{
+    height: 300px;
+    border: none;
+    color: #0A3871;
+    margin-top: 30px;
+    text-transform: lowercase;
+}
+::placeholder{
+    color: #0A3871;
+}
+.textarea:focus{
+    outline: none;
+}
+.mensaje{
+    background: white;
+    background-image: url(imagenes/persona.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 350px;
+    padding-left: 20px;
+    position: fixed;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mensaje:focus{
+    outline: none;
+}
+.buttons{
+    display: flex;
+    margin-top: 18px;
+
+}
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 60px;
+    width: 250px;
+}
+.btn-desencriptar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#0A3871;
+    cursor: pointer;
+    height: 60px;
+    margin-left: 300px;
+    position: absolute;
+    width: 250px;
+}
+.btn-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#0A3871;
+    cursor: pointer;
+    height: 60px;
+    margin-left: 225px;
+    margin-top: 400px;
+    position: absolute;
+    width: 250px;
+    display: none;
+}
+.info{
+    color: #495057;
+    font-size: 18px;
+}
